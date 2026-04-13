@@ -1,0 +1,49 @@
+# NyayaAI Backend Dependencies
+
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.1
+
+# Redis
+redis[hiredis]==5.2.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+
+# AI & NLP
+openai==1.58.1
+tiktoken==0.8.0
+sentence-transformers==3.3.1
+transformers==4.47.1
+torch==2.5.1
+spacy==3.8.3
+scikit-learn==1.6.0
+
+# Vector Database
+chromadb==0.5.23
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==1.1.2
+Pillow==11.0.0
+pytesseract==0.3.13
+
+# Report Generation
+reportlab==4.2.5
+jinja2==3.1.4
+
+# Utilities
+pydantic==2.10.3
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+httpx==0.28.1
+celery==5.4.0
+aiofiles==24.1.0
