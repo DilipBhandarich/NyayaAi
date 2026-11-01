@@ -135,7 +135,7 @@ Copy-Item .env.example server/.env
 At minimum, set a secure JWT secret and your OpenAI API key:
 
 ```env
-MONGODB_URI=mongodb://localhost:27017/nyaya_ai
+MONGODB_URI=your-mongo-url
 JWT_SECRET=replace-with-a-long-random-secret
 JWT_EXPIRES_IN=8h
 OPENAI_API_KEY=your-openai-api-key
